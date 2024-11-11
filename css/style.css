@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+/* font-family: "Manrope", sans-serif; */
+
+body{ margin:0;padding: 0;box-sizing: border-box;}
+
+.container{max-width: 1747px !important;margin: auto;padding: 0 15px;}
+
+.logo{width:180px;height:40px}
+
+.nav-link{color:#282938;font-weight: 600;font-family:"Manrope", sans-serif;font-size: 18px;transition: 0.4s;}
+
+.nav-link:hover{color:#5E3BEE !important;}
+.active{color:#5E3BEE !important}
+
+.ctn-color{border:1px solid #5E3BEE;padding: 12px 22px;text-decoration: none;display: inline-block;font-size: 13px;font-family: "Manrope", sans-serif;font-weight: 600;border-radius: 8px;color:#5E3BEE;transition: 0.3s;cursor: pointer;}
+
+.ctn-color:hover{background: #5E3BEE;color:white;border:1px solid white}
+
+
+@media(max-width:991px){
+    .sidebar{background:white;}
+
+}
+@media(max-width:576px){
+    .logo{max-width: fit-content;object-fit: cover;}
+}
+
+/* ---------------- */
+
+#hero{background: #F5FCFF;padding-top:10%;padding-bottom:7%;}
+
+#hero-content{margin-top: 50px;}
+
+#hero-content p{margin:0;font-size: 16px;font-family:"Manrope", sans-serif ;color:#282938;word-spacing: 1px;font-weight: 600;}
+
+#hero-content h1{margin:0;font-size: 65px;font-family:"Manrope", sans-serif ;color:#282938;word-spacing: 1px;font-weight: 800;padding-top: 15px;}
+.pro-color{color:#5E3BEE}
+
+#hero-img img{max-width: 100%;height:auto;object-fit: cover;}
+
+#btn-getin-touch{border:1px solid #5E3BEE;padding: 14px 22px;text-decoration: none;display: inline-block;font-size: 15px;font-family: "Manrope", sans-serif;font-weight: 600;border-radius: 8px;color:#ffffff;background: #5E3BEE;transition: 0.3s;cursor: pointer;margin-top: 10px;}
+
+#btn-getin-touch:hover{background: #F5FCFF;border: 1px solid #5E3BEE;color:#5E3BEE}
+/* ------------------ */
+
+.icon-section .card:hover{
+    border-bottom: 2px solid #5E3BEE !important;
+  }
+
+.card-body{background:#F5FCFF ;}
+
+/* ---------------- */
+
+.btn-danger{
+    background-color: #E62872 !important;
+  }
+  .portfolio-btn .btn-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+  }
+
+/* --------------- */
+
+.testimonials .profile{
+    width: 60px;
+    height: 60px;
+  }
+
+/* -------------- */
+
+.contact .btn-outline-primary{
+    border: 1px solid #5E3BEE;
+    color: #5E3BEE;
+  }
+  .contact .btn-outline-primary:hover{
+    background-color: transparent;
+    color: #5E3BEE !important;
+  }
+
+
+
