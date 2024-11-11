@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment First Webpage</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- -----navbar -->
+    <nav class="navbar bg-body navbar-expand-lg shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo.png" class="logo">
+          </a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- ----sidebar -->
+
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- -----sidebar header---- -->
+
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" class="logo">
+                  </a>
+              </h5>
+              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- -----sidebar body -->
+              
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+              <ul class="navbar-nav justify-content-center align-items-center flex-grow-1">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#about">About Me</a>
+                  </li>
+
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#testimonial">Testimonials</a>
+                  </li>
+               
+              </ul>
+
+              <!-- contact button -->
+
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-1">
+                <a href="#"class="ctn-color">Contact Me</a>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- -------navbar-------- -->
+
+<!-- hero -->
+ <main>
+<div id="hero">
+  <div class="container">
+      <div class="row d-flex justify-content-between align-content-center flex-lg-row flex-column">
+          <div class="col-lg-6 col-6 col-12">
+            <div id="hero-content">
+               <p>Hey,I am John</p>
+               <h1>I create <span class="pro-color">product design</span> and brand experience</h1>
+               <p class="mt-lg-4 mt-3 fw-medium lh-base fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <div class="mt-4">
+              <a href="#" id="btn-getin-touch">Get In Touch</a>
+             </div>
+          </div>
+  
+         <div class="col-lg-6 col-6 col-12">
+           <div id="hero-img">
+             <img src="images/hero.png">
+           </div>
+           
+         </div>   
+
+          </div>
+      </div>
+  </div>
+<!-- hero -->
+
+<!-- ----skills---- -->
+
+<section class="icon-section h-100 py-5 mt-5 area">
+  <div class="container">
+    <div class="icons-title">
+      <p class="fw-semibold">My Skills</p>
+      <h1 class="fw-bold">My Expertise</h1>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 g-md-4 mt-5">
+        <div class="col">
+            <div class="card p-1 section-bg border-0 border-bottom border-primary">
+              <div class="card-body">
+                <div class="box-img">
+                    <img src="images/product-chain.png" alt="" class="icon-box-image w-25 h-25 bg-white p-2  rounded-4">
+                </div>
+                <div class="content mt-3">
+                  <h5 class="fw-bold mb-3">Strategy & Direction</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card p-2 section-bg border-0" data-aos="zoom-in">
+              <div class="card-body">
+                <div class="box-img">
+                    <img src="images/tag.png" alt="" class="icon-box-image w-25 h-25 bg-white p-2  rounded-4">
+                </div>
+                <div class="content mt-3">
+                  <h5 class="fw-bold mb-3">Branding & Logo</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card p-2 section-bg border-0" data-aos="zoom-in">
+              <div class="card-body">
+                <div class="box-img">
+                    <img src="images/feather.png" alt="" class="icon-box-image w-25 h-25 bg-white p-2  rounded-4">
+                </div>
+                <div class="content mt-3">
+                  <h5 class="fw-bold mb-3">UI & UX Design</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card p-2 section-bg border-0" data-aos="zoom-in">
+              <div class="card-body">
+                <div class="box-img">
+                    <img src="images/code.png" alt="" class="icon-box-image w-25 h-25 bg-white p-2  rounded-4">
+                </div>
+                <div class="content mt-3">
+                  <h5 class="fw-bold mb-3">Webflow Development</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- ----skills---- -->
+
+<!-- ---about -->
+<section class="about-me h-100 py-5 mt-5 area" id="about-me">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-lg-2 row-cols-md-2 g-3 gy-sm-5 d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="about-img mt-5 mt-lg-0">
+            <img src="images/About Me.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="about-content ms-lg-5 ms-0 mt-5 mt-lg-0">
+            <p class="fw-semibold">About</p>
+            <h1 class="fw-bold fs-1">About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+            <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---- about- -->
+
+<!-- -------portfolio -->
+<section class="portfolio h-100 py-5 mt-5 area" id="portfolio">
+  <div class="container">
+   <!-- ==============portfolio-top-item================= -->
+   <div class="portfolio-top-item d-lg-flex d-md-flex d-sm-flex justify-content-between align-items-center">
+     <div class="portfolio-title">
+       <p class="fw-semibold">Recent Projects</p>
+       <h1 class="fw-bold">My Portfolio</h1>
+     </div>
+     <div class="portfolio-btn">
+       <a href="" class="btn btn-danger text-white py-2 px-3 mt-4 mt-lg-0"><img src="images/dribbble.png" class="btn-img" alt="Dribbble icon"> Visit My Dribbble</a>
+     </div>
+   </div>
+    <!-- ======= row ========== -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 mt-5">
+      <div class="col">
+         <div class="card border-0 shadow">
+           <img src="images/Image.png" alt="" class="card-img-top img-fluid">
+           <div class="card-body">
+              <h5 class="fw-semibold">Ahuse</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <a href="#" target="_blank" class="btn p-0 fw-semibold border-0 rounded-0 border-bottom border-primary pb-1">View In Dribbble <i class="bi bi-arrow-up-right fw-semibold"></i></a>
+           </div>
+         </div>
+      </div>
+      <div class="col">
+         <div class="card border-0 shadow">
+           <img src="images/Image2.png" alt="" class="card-img-top img-fluid">
+           <div class="card-body">
+              <h5 class="fw-semibold">App Dashboard</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <a href="#" target="_blank" class="btn p-0 fw-semibold border-0 rounded-0 border-bottom border-primary pb-1">View In Dribbble <i class="bi bi-arrow-up-right fw-semibold"></i></a>
+           </div>
+         </div>
+      </div>
+      <div class="col">
+         <div class="card border-0 shadow">
+           <img src="images/Image3.png" alt="" class="card-img-top img-fluid">
+           <div class="card-body">
+              <h5 class="fw-semibold">Easy Rent</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <a href="#" target="_blank" class="btn p-0 fw-semibold border-0 rounded-0 border-bottom border-primary pb-1">View In Dribbble <i class="bi bi-arrow-up-right fw-semibold"></i></a>
+           </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ------portfolio -->
+
+<!-- ----testimonial -->
+
+<section class="testimonials h-100 py-5 mt-5 area section-bg" id="testimonials">
+  <div class="container">
+    <div class="testimonials-title pt-5">
+      <p class="fw-semibold">Clients Feedback</p>
+      <h1 class="fw-bold">Customer testimonials</h1>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 mt-5 pb-5 ">
+      <div class="col">
+         <div class="card border-success bg-transparent">
+           <div class="card-body">
+            <div class="testimonials-icon mb-3">
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+             </div>
+             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+             <div class="profile-items d-flex align-items-center mt-3">
+                <img src="images/Avatar1.png" alt="Avatar image" class="profile me-3">
+                <div class="profile-content mt-3">
+                   <h6 class="fw-semibold">Dianne Russell</h6>
+                   <p class="fw-normal">Starbucks</p>
+                </div>
+             </div>
+           </div>
+         </div>
+      </div>
+      <div class="col">
+         <div class="card border-success bg-transparent">
+           <div class="card-body">
+             <div class="testimonials-icon mb-3">
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+             </div>
+             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+             <div class="profile-items d-flex align-items-center mt-3">
+                <img src="images/Avatar2.png" alt="Avatar image" class="profile me-3">
+                <div class="profile-content mt-3">
+                   <h6 class="fw-semibold">Kristin Watson</h6>
+                   <p class="fw-normal">Louis Vuitton</p>
+                </div>
+             </div>
+           </div>
+         </div>
+      </div>
+      <div class="col">
+         <div class="card border-success bg-transparent">
+           <div class="card-body">
+             <div class="testimonials-icon mb-3">
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success"></i>
+             </div>
+             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+             <div class="profile-items d-flex align-items-center mt-3">
+                <img src="images/Avatar3.png" alt="Avatar image" class="profile me-3">
+                <div class="profile-content mt-3">
+                   <h6 class="fw-semibold">Kathryn Murphy</h6>
+                   <p class="fw-normal">McDonald's</p>
+                </div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ----------testimonial -->
+
+<!-- ------contact -->
+<section class="contact h-100 py-5 mt-5 area" id="contact">
+  <div class="container">
+   <div class="testimonials-title text-center">
+     <p class="fw-semibold">Get In Touch</p>
+     <h1 class="fw-bold mb-3">Contact me</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+   </div>
+      <div class="row row-cols-1 d-flex justify-content-center mt-5">
+         <div class="col-12 col-lg-8">
+             <form action="#" method="get">
+               <div class="row">
+                 <div class="col-12 col-md-6">
+                   <label for="firstName" class="form-label">First Name</label>
+                   <input type="text" class="form-control btn-outline-primary" aria-label="First name" id="firstName">
+                 </div>
+                 <div class="col-12 col-md-6 mt-3 mt-md-0">
+                   <label for="lastName" class="form-label">Last Name</label>
+                   <input type="text" class="form-control btn-outline-primary" aria-label="Last name" id="lastName">
+                 </div>
+               </div>
+               <div class="row mt-3">
+                 <div class="col-12 col-md-6">
+                   <label for="email" class="form-label">Email</label>
+                   <input type="email" class="form-control btn-outline-primary" aria-label="Email" id="email">
+                 </div>
+                 <div class="col-12 col-md-6 mt-3 mt-md-0">
+                   <label for="phoneNumber" class="form-label">Phone Number</label>
+                   <input type="number" class="form-control btn-outline-primary" aria-label="Phone number" id="phoneNumber">
+                 </div>
+               </div>
+               <div class="col-12 mt-4">
+                 <label for="inputState" class="form-label">Choose a topic</label>
+                 <select id="inputState" class="form-select btn-outline-primary">
+                   <option selected>Select one...</option>
+                   <option>...</option>
+                 </select>
+               </div>
+               <div class="col-12 mt-4">
+                 <label for="message" class="form-label">Message</label>
+                 <textarea name="text" id="message"  class="form-control btn-outline-primary" aria-label="With textarea" style="height: 180px" placeholder="Type your message..."></textarea>
+               </div>
+                <div class="col-12 mt-4">
+                 <input class="form-check-input btn-outline-primary" type="checkbox" value="" id="flexCheckChecked"> 
+                 <label class="form-check-label" for="flexCheckChecked">
+                   I accept the terms
+                 </label>
+                </div>
+                <div class="col-12 mt-4 d-flex justify-content-center align-items-center">
+                 <button type="submit" class="btn btn-primary px-4">Submit</button>
+               </div>
+             </form>
+         </div>
+      </div>
+  </div>
+</section>
+</main>
+
+<!-- ------contact -->
+
+<!-- ----footer -->
+
+<footer class="footer h-100 py-5 mt-5 section-bg">
+  <div class="container">
+    <div class="row py-4 d-sm-flex justify-content-sm-center align-items-sm-center justify-content-center align-items-center">
+      <div class="col-lg-2 col-sm-5 col-6">
+        <a class="navbar-brand" href="#"><img src="images/Logo.png" class="w-100 mb-3"></a>
+      </div>
+      <div class="col-lg-8">
+        <div class="footer-top-nav">
+          <ul class="nav mb-3 mb-lg-0 d-flex justify-content-center align-items-center">
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#about-me">About me</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="footer-icons d-flex justify-content-center  zalign-items-center">
+          <a href="http://" target="_blank" class="m-2"><img src="images/Facebook.png" alt="social-icons"></a>
+          <a href="http://" target="_blank" class="m-2"><img src="images/instagram.png" alt="social-icons"></a>
+          <a href="http://" target="_blank" class="m-2"><img src="images/twitter.png" alt="social-icons"></a>
+          <a href="http://" target="_blank" class="m-2"><img src="images/linkedin.png" alt="social-icons"></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row py-3">
+      <div class="col-12 col-lg-6">
+        <div class="footer-bottom-text">
+          <p class="fw-medium text-center text-lg-start">Made with 💖 by Honufa</p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="footer-nav">
+          <ul class="nav mb-2 mb-lg-0 d-flex justify-content-lg-end justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terms of Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cookies Settings</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ----footer -->
+
+<script src="js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
